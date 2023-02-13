@@ -4,4 +4,5 @@ const user1 = {
     name: 'Evanilson',
     age: 23
 };
-// user1.id = 2;
+const add = (a, b) => a + b;
+const sub = (a, b) => a - b;

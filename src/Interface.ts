@@ -16,3 +16,11 @@ const user1: UserInterace = {
 
 // user1.id = 2;
 
+// Interface with functions
+interface MathFunc {
+    (a: number, b: number): number
+}
+
+const add: MathFunc = (a: number, b: number): number => a + b;
+const sub: MathFunc = (a: number, b: number): number => a - b;
+
